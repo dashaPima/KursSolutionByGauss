@@ -1,0 +1,17 @@
+D:\FourthSem\kyrsovRPVS\KyrsovRPVS\GaussSolver.Core\obj\Debug\net8.0\GaussSolver.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\FourthSem\kyrsovRPVS\KyrsovRPVS\GaussSolver.Core\obj\Debug\net8.0\GaussSolver.Core.AssemblyInfoInputs.cache
+D:\FourthSem\kyrsovRPVS\KyrsovRPVS\GaussSolver.Core\obj\Debug\net8.0\GaussSolver.Core.AssemblyInfo.cs
+D:\FourthSem\kyrsovRPVS\KyrsovRPVS\GaussSolver.Core\obj\Debug\net8.0\GaussSolver.Core.csproj.CoreCompileInputs.cache
+D:\FourthSem\kyrsovRPVS\KyrsovRPVS\GaussSolver.Core\obj\Debug\net8.0\Interop.Microsoft.Office.Interop.Excel.dll
+D:\FourthSem\kyrsovRPVS\KyrsovRPVS\GaussSolver.Core\obj\Debug\net8.0\Interop.Microsoft.Office.Interop.Word.dll
+D:\FourthSem\kyrsovRPVS\KyrsovRPVS\GaussSolver.Core\obj\Debug\net8.0\Interop.Microsoft.Office.Interop.PowerPoint.dll
+D:\FourthSem\kyrsovRPVS\KyrsovRPVS\GaussSolver.Core\obj\Debug\net8.0\Interop.Microsoft.Office.Core.dll
+D:\FourthSem\kyrsovRPVS\KyrsovRPVS\GaussSolver.Core\obj\Debug\net8.0\GaussSolver.Core.csproj.ResolveComReference.cache
+D:\FourthSem\kyrsovRPVS\KyrsovRPVS\GaussSolver.Core\bin\Debug\net8.0\GaussSolver.Core.deps.json
+D:\FourthSem\kyrsovRPVS\KyrsovRPVS\GaussSolver.Core\bin\Debug\net8.0\GaussSolver.Core.dll
+D:\FourthSem\kyrsovRPVS\KyrsovRPVS\GaussSolver.Core\bin\Debug\net8.0\GaussSolver.Core.pdb
+D:\FourthSem\kyrsovRPVS\KyrsovRPVS\GaussSolver.Core\obj\Debug\net8.0\Interop.Microsoft.Office.Interop.Access.Dao.dll
+D:\FourthSem\kyrsovRPVS\KyrsovRPVS\GaussSolver.Core\obj\Debug\net8.0\GaussSolver.Core.dll
+D:\FourthSem\kyrsovRPVS\KyrsovRPVS\GaussSolver.Core\obj\Debug\net8.0\refint\GaussSolver.Core.dll
+D:\FourthSem\kyrsovRPVS\KyrsovRPVS\GaussSolver.Core\obj\Debug\net8.0\GaussSolver.Core.pdb
+D:\FourthSem\kyrsovRPVS\KyrsovRPVS\GaussSolver.Core\obj\Debug\net8.0\ref\GaussSolver.Core.dll

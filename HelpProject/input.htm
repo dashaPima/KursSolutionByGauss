@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+  <meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+  <TITLE>Ввод данных</TITLE>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.4; }
+    h1 { color: #004080; }
+    h2 { color: #0066cc; }
+    ul { margin-left: 20px; }
+    code { background: #f4f4f4; padding: 2px 4px; border-radius: 3px; }
+  </style>
+</HEAD>
+<BODY>
+  <h1>Ввод системы линейных уравнений</h1>
+
+  <p>Для решения системы методом Гаусса необходимо задать коэффициенты матрицы <code>A</code> и вектор свободных членов <code>B</code>. Это делается на форме в таблице (<code>DataGridView</code>), обозначенной как <strong>«Ввод уравнения»</strong>.</p>
+
+  <h2>Порядок действий:</h2>
+  <ol>
+    <li>В поле «Установка числа переменных» введите целое число <code>n</code> — размерность системы.</li>
+    <li>Нажмите кнопку <strong>«Построить таблицу»</strong>. Появится таблица <code>dgvSystem</code> с <code>n</code> столбцами для коэффициентов и одним столбцом для свободных членов.</li>
+    <li>Столбцы таблицы имеют заголовки:
+      <ul>
+        <li><code>A1, A2, …, An</code> — коэффициенты при переменных <code>x1, x2, …, xn</li>
+        <li><code>B</code> — свободные члены</li>
+      </ul>
+    </li>
+    <li>Заполните каждую строку таблицы значениями коэффициентов и свободного члена.</li>
+    <li>После ввода всех данных нажмите кнопку <strong>«Найти решение»</strong>.</li>
+  </ol>
+
+  <h2>Пример заполнения для n = 3:</h2>
+  <table border="1" cellpadding="4" cellspacing="0">
+    <tr>
+      <th>A1</th><th>A2</th><th>A3</th><th>B</th>
+    </tr>
+    <tr>
+      <td>2</td><td>1</td><td>-1</td><td>8</td>
+    </tr>
+    <tr>
+      <td>-3</td><td>4</td><td>2</td><td>-2</td>
+    </tr>
+    <tr>
+      <td>1</td><td>-2</td><td>5</td><td>3</td>
+    </tr>
+  </table>
+
+  <h2>Контекстная помощь</h2>
+  <p>Если курсор находится в таблице и вы нажмёте <code>F1</code>, появится эта тема справки с указаниями по вводу данных.</p>
+</BODY>
+</HTML>

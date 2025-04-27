@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+  <meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+  <TITLE>Типичные ошибки</TITLE>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    h1 { color: #800000; }
+    code { background: #f4f4f4; padding: 2px; }
+    .error { color: #b00000; font-weight: bold; }
+  </style>
+</HEAD>
+<BODY>
+  <h1>Типичные ошибки при вводе и решении</h1>
+
+  <h2>1. Пустые ячейки</h2>
+  <p class="error">Ошибка:</p>
+  <pre>System.FormatException: Input string was not in a correct format.</pre>
+  <p>Убедитесь, что вы заполнили все ячейки таблицы <code>dgvSystem</code> значениями (числами) .</p>
+
+  <h2>2. Неверные форматы чисел</h2>
+  <p class="error">Ошибка:</p>
+  <pre>System.FormatException: Невозможно преобразовать строку &quot;abc&quot; в число.</pre>
+  <p>Можно вводить только цифры, десятичный разделитель — точка или запятая (в зависимости от региональных настроек).</p>
+  <h2>3. OutOfRange при чтении dgv</h2>
+  <p class="error">Ошибка:</p>
+  <pre>IndexOutOfRangeException: Index was outside the bounds of the array.</pre>
+  <p> Обычно значит, что число строк или столбцов таблицы не совпадает с введенным<code>n</code>. После изменения<code>n</code> нажимайте <strong>«Построить таблицу»</strong>.</p>
+
+  <h2>4. Общие советы</h2>
+  <ul>
+    <li> Перед нажатием <strong>«Найти решение»</strong> обязательно заполните все поля.</li>
+    <li>Вводите числа без лишних пробелов.</li>
+    <li>При ошибках смотрите вывод <code>MessageBox</code> — там содержится текст исключения.</li>
+  </ul>
+  <p><a href="about.htm">Вернуться на начальную страницу</a></p>
+</BODY>
+</HTML>

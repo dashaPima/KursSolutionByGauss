@@ -1,0 +1,102 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "GaussSolver.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/GaussSolver.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GaussSolver.Core.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "GaussSolver.Core/1.0.0": {
+      "type": "project",
+      "path": "../GaussSolver.Core/GaussSolver.Core.csproj",
+      "msbuildProject": "../GaussSolver.Core/GaussSolver.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "GaussSolver.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\dasha\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\KyrsovRPVS\\KyrsovRPVS.csproj",
+      "projectName": "KyrsovRPVS",
+      "projectPath": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\KyrsovRPVS\\KyrsovRPVS.csproj",
+      "packagesPath": "C:\\Users\\dasha\\.nuget\\packages\\",
+      "outputPath": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\KyrsovRPVS\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\dasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\GaussSolver.Core\\GaussSolver.Core.csproj": {
+              "projectPath": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\GaussSolver.Core\\GaussSolver.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
