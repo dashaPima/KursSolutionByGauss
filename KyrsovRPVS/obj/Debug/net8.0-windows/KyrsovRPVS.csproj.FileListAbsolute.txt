@@ -25,3 +25,4 @@ D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\bin\Debug\net8.0-windows\HelpFiles
 D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\bin\Debug\net8.0-windows\HelpFiles\errors.htm
 D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\bin\Debug\net8.0-windows\HelpFiles\graph.htm
 D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\bin\Debug\net8.0-windows\HelpFiles\input.htm
+D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\obj\Debug\net8.0-windows\KyrsovRPVS.sourcelink.json

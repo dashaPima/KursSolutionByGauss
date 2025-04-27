@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KyrsovRPVS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca172b158695452f3f22556dd4e44a4cf5e527f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("KyrsovRPVS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KyrsovRPVS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

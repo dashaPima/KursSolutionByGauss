@@ -159,15 +159,12 @@ namespace KyrsovRPVS
 
                 float yZero = margin + (float)((maxVal - 0) / range * plotHeight);
 
-                // Ось Y и ось X
+                // Оси
                 g.DrawLine(Pens.Black, margin, margin, margin, margin + plotHeight);
                 g.DrawLine(Pens.Black, margin, yZero, margin + plotWidth, yZero);
 
                 float barWidth = plotWidth / (float)n * 0.6f;
                 float gap = (plotWidth - barWidth * n) / (n + 1);
-
-                // Y-координата для подписей переменных
-                float bottomLabelY = margin + plotHeight + 8;
 
                 for (int i = 0; i < n; i++)
                 {
@@ -175,28 +172,29 @@ namespace KyrsovRPVS
                     float x = margin + gap + i * (barWidth + gap);
                     float barLength = (float)(Math.Abs(val) / range * plotHeight);
 
-                    float y;
-                    if (val >= 0)
-                        y = yZero - barLength;
-                    else
-                        y = yZero;
+                    // вычисляем верхнюю Y-позицию столбца
+                    float yTop = val >= 0 ? yZero - barLength : yZero;
+                    // рисуем столбец
+                    g.FillRectangle(Brushes.Blue, x, yTop, barWidth, barLength);
 
-                    g.FillRectangle(Brushes.Blue, x, y, barWidth, barLength);
-
-                    // подпись значения
+                    // вывод значения над/под столбцом
                     string valText = val.ToString("F3");
                     var szVal = g.MeasureString(valText, this.Font);
-                    float yText = val >= 0
-                        ? y - szVal.Height - 2
-                        : y + barLength + 2;
+                    float barBottom = val >= 0 ? yZero : yZero + barLength;
+                    float yVal = val >= 0
+                        ? yTop - szVal.Height - 2
+                        : barBottom + 2;
                     g.DrawString(valText, this.Font, Brushes.Black,
-                                 x + (barWidth - szVal.Width) / 2, yText);
+                                 x + (barWidth - szVal.Width) / 2,
+                                 yVal);
 
-                    // подпись переменной ниже
+                    // вывод названия переменной ниже всех
                     string label = $"x{data[i].Item1}";
                     var szLabel = g.MeasureString(label, this.Font);
+                    float yLabel = barBottom + 2 + szVal.Height + 2;
                     g.DrawString(label, this.Font, Brushes.Black,
-                                 x + (barWidth - szLabel.Width) / 2, bottomLabelY);
+                                 x + (barWidth - szLabel.Width) / 2,
+                                 yLabel);
                 }
             }
             pictureBox.Image = bmp;
