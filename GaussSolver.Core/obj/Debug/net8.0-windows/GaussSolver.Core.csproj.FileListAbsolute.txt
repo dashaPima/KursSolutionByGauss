@@ -22,3 +22,4 @@ D:\FourthSem\kyrsovRPVS\KyrsovRPVS\GaussSolver.Core\bin\Debug\net8.0-windows\Hel
 D:\FourthSem\kyrsovRPVS\KyrsovRPVS\GaussSolver.Core\bin\Debug\net8.0-windows\HelpFiles\errors.htm
 D:\FourthSem\kyrsovRPVS\KyrsovRPVS\GaussSolver.Core\bin\Debug\net8.0-windows\HelpFiles\graph.htm
 D:\FourthSem\kyrsovRPVS\KyrsovRPVS\GaussSolver.Core\bin\Debug\net8.0-windows\HelpFiles\input.htm
+D:\FourthSem\kyrsovRPVS\KyrsovRPVS\GaussSolver.Core\obj\Debug\net8.0-windows\GaussSolver.Core.sourcelink.json

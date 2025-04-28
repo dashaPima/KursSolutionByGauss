@@ -32,6 +32,7 @@
             toolStripLabelFile = new ToolStripDropDownButton();
             экспортWordToolStripMenuItem = new ToolStripMenuItem();
             экспортExcelToolStripMenuItem = new ToolStripMenuItem();
+            экспортPowerPointToolStripMenuItem = new ToolStripMenuItem();
             toolStripLabelInformation = new ToolStripLabel();
             toolStripLabelHelp = new ToolStripLabel();
             groupBox1.SuspendLayout();
@@ -192,7 +193,7 @@
             // 
             // toolStripLabelFile
             // 
-            toolStripLabelFile.DropDownItems.AddRange(new ToolStripItem[] { экспортWordToolStripMenuItem, экспортExcelToolStripMenuItem });
+            toolStripLabelFile.DropDownItems.AddRange(new ToolStripItem[] { экспортWordToolStripMenuItem, экспортExcelToolStripMenuItem, экспортPowerPointToolStripMenuItem });
             toolStripLabelFile.Name = "toolStripLabelFile";
             toolStripLabelFile.Size = new Size(46, 24);
             toolStripLabelFile.Text = "File";
@@ -200,16 +201,23 @@
             // экспортWordToolStripMenuItem
             // 
             экспортWordToolStripMenuItem.Name = "экспортWordToolStripMenuItem";
-            экспортWordToolStripMenuItem.Size = new Size(188, 26);
+            экспортWordToolStripMenuItem.Size = new Size(224, 26);
             экспортWordToolStripMenuItem.Text = "экспорт Word";
             экспортWordToolStripMenuItem.Click += экспортWord;
             // 
             // экспортExcelToolStripMenuItem
             // 
             экспортExcelToolStripMenuItem.Name = "экспортExcelToolStripMenuItem";
-            экспортExcelToolStripMenuItem.Size = new Size(188, 26);
+            экспортExcelToolStripMenuItem.Size = new Size(224, 26);
             экспортExcelToolStripMenuItem.Text = " экспорт Excel";
             экспортExcelToolStripMenuItem.Click += экспортExcel;
+            // 
+            // экспортPowerPointToolStripMenuItem
+            // 
+            экспортPowerPointToolStripMenuItem.Name = "экспортPowerPointToolStripMenuItem";
+            экспортPowerPointToolStripMenuItem.Size = new Size(224, 26);
+            экспортPowerPointToolStripMenuItem.Text = "экспорт PowerPoint";
+            экспортPowerPointToolStripMenuItem.Click += экспортPowerPoint;
             // 
             // toolStripLabelInformation
             // 
@@ -270,5 +278,6 @@
         private ToolStripDropDownButton toolStripLabelFile;
         private ToolStripMenuItem экспортWordToolStripMenuItem;
         private ToolStripMenuItem экспортExcelToolStripMenuItem;
+        private ToolStripMenuItem экспортPowerPointToolStripMenuItem;
     }
     }

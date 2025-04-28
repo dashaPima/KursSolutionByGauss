@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GaussSolver.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1bd9f0f22d6478bdd5f7acf11b702d0a059e211")]
 [assembly: System.Reflection.AssemblyProductAttribute("GaussSolver.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GaussSolver.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

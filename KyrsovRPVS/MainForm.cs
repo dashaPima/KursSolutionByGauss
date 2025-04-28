@@ -17,9 +17,7 @@ namespace KyrsovRPVS
             dgvSystem.AllowUserToAddRows = false;
             btnformTable.Click += FormTable;
             btnFindSolution.Click += findSolution;
-            // Пункты меню «Файл → Экспорт»
-            экспортExcelToolStripMenuItem.Click += экспортExcel;
-            экспортWordToolStripMenuItem.Click += экспортWord;
+           
             toolStripLabelHelp.Click += (s, e) =>
             {
                 var help = new AboutForm("about.htm");
@@ -94,7 +92,7 @@ namespace KyrsovRPVS
                     constants[i] = Convert.ToDouble(dgvSystem[n, i].Value);
                 }
 
-                var _currentSystem = new LinearSystem(matrix, constants);
+                _currentSystem = new LinearSystem(matrix, constants);
                 var solution = _currentSystem.SolveByGauss();
 
                 dgvSolution.Columns.Clear();
@@ -215,45 +213,16 @@ namespace KyrsovRPVS
             }
             using (var sfd = new SaveFileDialog
             {
-                Filter = "Excel Workbook|*.xlsx",
-                Title = "Сохранить в Excel"
-            })
-            {
-                if (sfd.ShowDialog() != DialogResult.OK) return;
-                // Превращаем систему в DataTable
-                DataTable table = _currentSystem.ToDataTable();
-                // Добавляем ещё один столбец — решение
-                var sol = _currentSystem.SolveByGauss();
-                table.Columns.Add("Решение", typeof(double));
-                for (int i = 0; i < sol.Length; i++)
-                    table.Rows[i]["Решение"] = sol[i];
-
-                // Экспортируем
-                DataExporter.ExportToExcel(table, sfd.FileName);
-                MessageBox.Show("Экспорт в Excel выполнен.", "", MessageBoxButtons.OK);
-            }
-        }
-
-        private void экспортExcel(object sender, EventArgs e)
-        {
-            if (_currentSystem == null)
-            {
-                MessageBox.Show("Сначала решите систему!", "Внимание",
-                                MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
-            using (var sfd = new SaveFileDialog
-            {
                 Filter = "Word Document|*.docx;*.doc",
                 Title = "Сохранить в Word"
             })
             {
                 if (sfd.ShowDialog() != DialogResult.OK) return;
+
                 // Собираем текст: исходная матрица + решение
                 var sb = new StringBuilder();
-                sb.AppendLine("Решение системы методом Гаусса");
+                sb.AppendLine("Разработка приложения решения систем линейных алгебраических уравнений методом Гаусса");
                 sb.AppendLine();
-
                 // Исходная матрица
                 sb.AppendLine("Матрица A и вектор B:");
                 var dt = _currentSystem.ToDataTable();
@@ -267,17 +236,78 @@ namespace KyrsovRPVS
                     sb.AppendLine(string.Join("\t", coeffs) + "\t|\t" + b);
                 }
                 sb.AppendLine();
-
                 // Решение
                 var sol = _currentSystem.SolveByGauss();
                 sb.AppendLine("Результаты:");
                 for (int i = 0; i < sol.Length; i++)
                     sb.AppendLine($"x{i + 1} = {sol[i]:F4}");
 
-                // Экспортируем
-                DataExporter.ExportToWord(sb.ToString(), sfd.FileName);
-                MessageBox.Show("Экспорт в Word выполнен.", "", MessageBoxButtons.OK);
+                // Экспортируем вместе с графиком
+                DataExporter.ExportToWord(
+                    sb.ToString(),
+                    pictureBox.Image,
+                    sfd.FileName);
+                MessageBox.Show("Экспорт в Word выполнен.", "",
+                                MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+        }
+
+        private void экспортExcel(object sender, EventArgs e)
+        {
+            if (_currentSystem == null)
+            {
+                MessageBox.Show("Сначала решите систему!", "Внимание",
+                                MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            using (var sfd = new SaveFileDialog
+            {
+                Filter = "Excel Workbook|*.xlsx",
+                Title = "Сохранить в Excel"
+            })
+            {
+                if (sfd.ShowDialog() != DialogResult.OK) return;
+
+                // Превращаем систему в DataTable
+                DataTable table = _currentSystem.ToDataTable();
+                // Добавляем ещё один столбец — решение
+                var sol = _currentSystem.SolveByGauss();
+                table.Columns.Add("Решение", typeof(double));
+                for (int i = 0; i < sol.Length; i++)
+                    table.Rows[i]["Решение"] = sol[i];
+
+                // Экспортируем в Excel (вместе с диаграммой, если в DataExporter это реализовано)
+                DataExporter.ExportToExcel(table, sfd.FileName);
+                MessageBox.Show("Экспорт в Excel выполнен.", "",
+                                MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+        private void экспортPowerPoint(object sender, EventArgs e)
+        {
+            if (_currentSystem == null)
+            {
+                MessageBox.Show("Сначала решите систему!", "Внимание",
+                                MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            using var sfd = new SaveFileDialog
+            {
+                Filter = "PowerPoint Presentation|*.pptx",
+                Title = "Сохранить в PowerPoint"
+            };
+            if (sfd.ShowDialog() != DialogResult.OK) return;
+            string filePath = sfd.FileName;
+            DataExporter.ExportToPowerPoint(
+                _currentSystem.ToDataTable(),
+                _currentSystem.SolveByGauss(),
+                pictureBox.Image,
+                "Разработка приложения решения систем линейных алгебраических уравнений методом Гаусса",
+                "Пимошенко Дарья Андреевна ст. 2 курса гр.10701323",
+                "Разработка приложений в визуальных средах",
+                filePath);
+            MessageBox.Show("Экспорт в PowerPoint выполнен.", "",
+                                MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
