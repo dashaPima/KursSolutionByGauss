@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GaussSolver.Core\GaussSolver.Core.csproj" />
+    <ProjectReference Include="..\DLLhelper\DLLhelper.csproj" />
   </ItemGroup>
 
   <ItemGroup>

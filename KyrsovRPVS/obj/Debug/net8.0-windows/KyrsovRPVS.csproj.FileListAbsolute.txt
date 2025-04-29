@@ -16,8 +16,6 @@ D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\bin\Debug\net8.0-windows\KyrsovRPV
 D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\obj\Debug\net8.0-windows\KyrsovRPVS.genruntimeconfig.cache
 D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\bin\Debug\net8.0-windows\KyrsovRPVS.pdb
 D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\obj\Debug\net8.0-windows\ref\KyrsovRPVS.dll
-D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\bin\Debug\net8.0-windows\GaussSolver.Core.dll
-D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\bin\Debug\net8.0-windows\GaussSolver.Core.pdb
 D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\obj\Debug\net8.0-windows\KyrsovRPVS.csproj.AssemblyReference.cache
 D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\obj\Debug\net8.0-windows\KyrsovRPVS.csproj.Up2Date
 D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\bin\Debug\net8.0-windows\HelpProject.chm
@@ -26,3 +24,5 @@ D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\bin\Debug\net8.0-windows\HelpFiles
 D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\bin\Debug\net8.0-windows\HelpFiles\graph.htm
 D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\bin\Debug\net8.0-windows\HelpFiles\input.htm
 D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\obj\Debug\net8.0-windows\KyrsovRPVS.sourcelink.json
+D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\bin\Debug\net8.0-windows\DLLhelper.dll
+D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\bin\Debug\net8.0-windows\DLLhelper.pdb

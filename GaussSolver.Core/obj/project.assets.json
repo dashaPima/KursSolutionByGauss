@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\GaussSolver.Core\\GaussSolver.Core.csproj",
-      "projectName": "GaussSolver.Core",
-      "projectPath": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\GaussSolver.Core\\GaussSolver.Core.csproj",
+      "projectUniqueName": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\GaussSolver.Core\\DLLhelper.csproj",
+      "projectName": "DLLhelper",
+      "projectPath": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\GaussSolver.Core\\DLLhelper.csproj",
       "packagesPath": "C:\\Users\\dasha\\.nuget\\packages\\",
       "outputPath": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\GaussSolver.Core\\obj\\",
       "projectStyle": "PackageReference",

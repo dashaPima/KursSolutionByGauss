@@ -2,7 +2,7 @@
 using System.Data;
 using System.Text;
 using System.Windows.Forms;
-using GaussSolver.Core;
+using DLLhelper;
 
 namespace KyrsovRPVS
 {
@@ -17,7 +17,19 @@ namespace KyrsovRPVS
             dgvSystem.AllowUserToAddRows = false;
             btnformTable.Click += FormTable;
             btnFindSolution.Click += findSolution;
-           
+            this.ContextMenuStrip = ctxmenu;
+            MenuItem1.Click += (s, e) => {
+                var help = new AboutForm("about.htm");
+                help.Show();
+            };
+            MenuItem2.Click += (s, e) => {
+                var help = new AboutForm("input.htm");
+                help.Show();
+            };
+            MenuItem3.Click += (s, e) => экспортWord(s,e);
+            MenuItem4.Click += (s, e) => экспортExcel(s, e);
+            MenuItem5.Click += (s, e) => экспортPowerPoint(s, e);
+
             toolStripLabelHelp.Click += (s, e) =>
             {
                 var help = new AboutForm("about.htm");
@@ -32,6 +44,7 @@ namespace KyrsovRPVS
             dgvSystem.Enter += (s, e) => this.Tag = "input.htm";
 
         }
+
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
         {
             if (keyData == Keys.F1)
@@ -200,7 +213,7 @@ namespace KyrsovRPVS
 
         private void exitform(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void экспортWord(object sender, EventArgs e)

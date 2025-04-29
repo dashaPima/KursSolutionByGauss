@@ -4,14 +4,14 @@
     "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\KyrsovRPVS\\KyrsovRPVS.csproj": {}
   },
   "projects": {
-    "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\GaussSolver.Core\\GaussSolver.Core.csproj": {
+    "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\DLLhelper\\DLLhelper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\GaussSolver.Core\\GaussSolver.Core.csproj",
-        "projectName": "GaussSolver.Core",
-        "projectPath": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\GaussSolver.Core\\GaussSolver.Core.csproj",
+        "projectUniqueName": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\DLLhelper\\DLLhelper.csproj",
+        "projectName": "DLLhelper",
+        "projectPath": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\DLLhelper\\DLLhelper.csproj",
         "packagesPath": "C:\\Users\\dasha\\.nuget\\packages\\",
-        "outputPath": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\GaussSolver.Core\\obj\\",
+        "outputPath": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\DLLhelper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -91,8 +91,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\GaussSolver.Core\\GaussSolver.Core.csproj": {
-                "projectPath": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\GaussSolver.Core\\GaussSolver.Core.csproj"
+              "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\DLLhelper\\DLLhelper.csproj": {
+                "projectPath": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\DLLhelper\\DLLhelper.csproj"
               }
             }
           }

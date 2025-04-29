@@ -14,6 +14,7 @@
 
         private void InitializeComponent()
         {
+            components = new Container();
             amoutUnknowns = new TextBox();
             groupBox1 = new GroupBox();
             btnformTable = new Button();
@@ -35,6 +36,12 @@
             экспортPowerPointToolStripMenuItem = new ToolStripMenuItem();
             toolStripLabelInformation = new ToolStripLabel();
             toolStripLabelHelp = new ToolStripLabel();
+            ctxmenu = new ContextMenuStrip(components);
+            MenuItem1 = new ToolStripMenuItem();
+            MenuItem2 = new ToolStripMenuItem();
+            MenuItem3 = new ToolStripMenuItem();
+            MenuItem4 = new ToolStripMenuItem();
+            MenuItem5 = new ToolStripMenuItem();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             ((ISupportInitialize)dgvSystem).BeginInit();
@@ -42,6 +49,7 @@
             ((ISupportInitialize)dgvSolution).BeginInit();
             ((ISupportInitialize)pictureBox).BeginInit();
             toolStrip1.SuspendLayout();
+            ctxmenu.SuspendLayout();
             SuspendLayout();
             // 
             // amoutUnknowns
@@ -201,21 +209,21 @@
             // экспортWordToolStripMenuItem
             // 
             экспортWordToolStripMenuItem.Name = "экспортWordToolStripMenuItem";
-            экспортWordToolStripMenuItem.Size = new Size(224, 26);
+            экспортWordToolStripMenuItem.Size = new Size(223, 26);
             экспортWordToolStripMenuItem.Text = "экспорт Word";
             экспортWordToolStripMenuItem.Click += экспортWord;
             // 
             // экспортExcelToolStripMenuItem
             // 
             экспортExcelToolStripMenuItem.Name = "экспортExcelToolStripMenuItem";
-            экспортExcelToolStripMenuItem.Size = new Size(224, 26);
+            экспортExcelToolStripMenuItem.Size = new Size(223, 26);
             экспортExcelToolStripMenuItem.Text = " экспорт Excel";
             экспортExcelToolStripMenuItem.Click += экспортExcel;
             // 
             // экспортPowerPointToolStripMenuItem
             // 
             экспортPowerPointToolStripMenuItem.Name = "экспортPowerPointToolStripMenuItem";
-            экспортPowerPointToolStripMenuItem.Size = new Size(224, 26);
+            экспортPowerPointToolStripMenuItem.Size = new Size(223, 26);
             экспортPowerPointToolStripMenuItem.Text = "экспорт PowerPoint";
             экспортPowerPointToolStripMenuItem.Click += экспортPowerPoint;
             // 
@@ -230,6 +238,43 @@
             toolStripLabelHelp.Name = "toolStripLabelHelp";
             toolStripLabelHelp.Size = new Size(41, 24);
             toolStripLabelHelp.Text = "Help";
+            // 
+            // ctxmenu
+            // 
+            ctxmenu.ImageScalingSize = new Size(20, 20);
+            ctxmenu.Items.AddRange(new ToolStripItem[] { MenuItem1, MenuItem2, MenuItem3, MenuItem4, MenuItem5 });
+            ctxmenu.Name = "ctxmenu";
+            ctxmenu.Size = new Size(228, 152);
+            // 
+            // MenuItem1
+            // 
+            MenuItem1.Name = "MenuItem1";
+            MenuItem1.Size = new Size(227, 24);
+            MenuItem1.Text = "Помощь";
+            // 
+            // MenuItem2
+            // 
+            MenuItem2.Name = "MenuItem2";
+            MenuItem2.Size = new Size(227, 24);
+            MenuItem2.Text = "О программе";
+            // 
+            // MenuItem3
+            // 
+            MenuItem3.Name = "MenuItem3";
+            MenuItem3.Size = new Size(227, 24);
+            MenuItem3.Text = "Экспорт в Word";
+            // 
+            // MenuItem4
+            // 
+            MenuItem4.Name = "MenuItem4";
+            MenuItem4.Size = new Size(227, 24);
+            MenuItem4.Text = "Экспорт в Excel";
+            // 
+            // MenuItem5
+            // 
+            MenuItem5.Name = "MenuItem5";
+            MenuItem5.Size = new Size(227, 24);
+            MenuItem5.Text = "Экспорт в Power Point";
             // 
             // MainForm
             // 
@@ -254,6 +299,7 @@
             ((ISupportInitialize)pictureBox).EndInit();
             toolStrip1.ResumeLayout(false);
             toolStrip1.PerformLayout();
+            ctxmenu.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -279,5 +325,11 @@
         private ToolStripMenuItem экспортWordToolStripMenuItem;
         private ToolStripMenuItem экспортExcelToolStripMenuItem;
         private ToolStripMenuItem экспортPowerPointToolStripMenuItem;
+        private ContextMenuStrip ctxmenu;
+        private ToolStripMenuItem MenuItem1;
+        private ToolStripMenuItem MenuItem2;
+        private ToolStripMenuItem MenuItem3;
+        private ToolStripMenuItem MenuItem4;
+        private ToolStripMenuItem MenuItem5;
     }
     }
