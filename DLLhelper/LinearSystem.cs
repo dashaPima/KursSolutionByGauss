@@ -14,7 +14,6 @@ namespace DLLhelper
             get => _matrix;
             set => _matrix = value;
         }
-
         public double[] Constants
         {
             get => _constants;
@@ -25,7 +24,6 @@ namespace DLLhelper
             _matrix = matrix;
             _constants = constants;
         }
-
         // Решает систему методом Гаусса.
         public double[] SolveByGauss()
         {
@@ -108,3 +106,4 @@ namespace DLLhelper
         }
     }
 }
+ 

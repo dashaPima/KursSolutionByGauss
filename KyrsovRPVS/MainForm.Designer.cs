@@ -15,6 +15,7 @@
         private void InitializeComponent()
         {
             components = new Container();
+            ComponentResourceManager resources = new ComponentResourceManager(typeof(MainForm));
             amoutUnknowns = new TextBox();
             groupBox1 = new GroupBox();
             btnformTable = new Button();
@@ -42,6 +43,14 @@
             MenuItem3 = new ToolStripMenuItem();
             MenuItem4 = new ToolStripMenuItem();
             MenuItem5 = new ToolStripMenuItem();
+            toolStrip2 = new ToolStrip();
+            toolStripGraph = new ToolStripButton();
+            toolStripInfo = new ToolStripButton();
+            toolStripPowerPoint = new ToolStripButton();
+            toolStripExcel = new ToolStripButton();
+            toolStripWord = new ToolStripButton();
+            toolStripColor = new ToolStripButton();
+            btnMatlabVerify = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             ((ISupportInitialize)dgvSystem).BeginInit();
@@ -50,6 +59,7 @@
             ((ISupportInitialize)pictureBox).BeginInit();
             toolStrip1.SuspendLayout();
             ctxmenu.SuspendLayout();
+            toolStrip2.SuspendLayout();
             SuspendLayout();
             // 
             // amoutUnknowns
@@ -106,7 +116,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Arial", 13.2000008F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            label1.Location = new Point(431, 23);
+            label1.Location = new Point(402, 54);
             label1.Name = "label1";
             label1.Size = new Size(845, 27);
             label1.TabIndex = 6;
@@ -209,21 +219,21 @@
             // экспортWordToolStripMenuItem
             // 
             экспортWordToolStripMenuItem.Name = "экспортWordToolStripMenuItem";
-            экспортWordToolStripMenuItem.Size = new Size(223, 26);
+            экспортWordToolStripMenuItem.Size = new Size(224, 26);
             экспортWordToolStripMenuItem.Text = "экспорт Word";
             экспортWordToolStripMenuItem.Click += экспортWord;
             // 
             // экспортExcelToolStripMenuItem
             // 
             экспортExcelToolStripMenuItem.Name = "экспортExcelToolStripMenuItem";
-            экспортExcelToolStripMenuItem.Size = new Size(223, 26);
+            экспортExcelToolStripMenuItem.Size = new Size(224, 26);
             экспортExcelToolStripMenuItem.Text = " экспорт Excel";
             экспортExcelToolStripMenuItem.Click += экспортExcel;
             // 
             // экспортPowerPointToolStripMenuItem
             // 
             экспортPowerPointToolStripMenuItem.Name = "экспортPowerPointToolStripMenuItem";
-            экспортPowerPointToolStripMenuItem.Size = new Size(223, 26);
+            экспортPowerPointToolStripMenuItem.Size = new Size(224, 26);
             экспортPowerPointToolStripMenuItem.Text = "экспорт PowerPoint";
             экспортPowerPointToolStripMenuItem.Click += экспортPowerPoint;
             // 
@@ -244,7 +254,7 @@
             ctxmenu.ImageScalingSize = new Size(20, 20);
             ctxmenu.Items.AddRange(new ToolStripItem[] { MenuItem1, MenuItem2, MenuItem3, MenuItem4, MenuItem5 });
             ctxmenu.Name = "ctxmenu";
-            ctxmenu.Size = new Size(228, 152);
+            ctxmenu.Size = new Size(228, 124);
             // 
             // MenuItem1
             // 
@@ -276,9 +286,86 @@
             MenuItem5.Size = new Size(227, 24);
             MenuItem5.Text = "Экспорт в Power Point";
             // 
+            // toolStrip2
+            // 
+            toolStrip2.ImageScalingSize = new Size(20, 20);
+            toolStrip2.Items.AddRange(new ToolStripItem[] { toolStripGraph, toolStripInfo, toolStripPowerPoint, toolStripExcel, toolStripWord, toolStripColor });
+            toolStrip2.Location = new Point(0, 27);
+            toolStrip2.Name = "toolStrip2";
+            toolStrip2.Size = new Size(1542, 27);
+            toolStrip2.TabIndex = 13;
+            toolStrip2.Text = "toolStrip2";
+            // 
+            // toolStripGraph
+            // 
+            toolStripGraph.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            toolStripGraph.Image = (Image)resources.GetObject("toolStripGraph.Image");
+            toolStripGraph.ImageTransparentColor = Color.Magenta;
+            toolStripGraph.Name = "toolStripGraph";
+            toolStripGraph.Size = new Size(29, 24);
+            toolStripGraph.Text = "График";
+            // 
+            // toolStripInfo
+            // 
+            toolStripInfo.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            toolStripInfo.Image = (Image)resources.GetObject("toolStripInfo.Image");
+            toolStripInfo.ImageTransparentColor = Color.Magenta;
+            toolStripInfo.Name = "toolStripInfo";
+            toolStripInfo.Size = new Size(29, 24);
+            toolStripInfo.Text = "Информация";
+            // 
+            // toolStripPowerPoint
+            // 
+            toolStripPowerPoint.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            toolStripPowerPoint.Image = (Image)resources.GetObject("toolStripPowerPoint.Image");
+            toolStripPowerPoint.ImageTransparentColor = Color.Magenta;
+            toolStripPowerPoint.Name = "toolStripPowerPoint";
+            toolStripPowerPoint.Size = new Size(29, 24);
+            toolStripPowerPoint.Text = "Экспорт Powerpoint";
+            // 
+            // toolStripExcel
+            // 
+            toolStripExcel.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            toolStripExcel.Image = (Image)resources.GetObject("toolStripExcel.Image");
+            toolStripExcel.ImageTransparentColor = Color.Magenta;
+            toolStripExcel.Name = "toolStripExcel";
+            toolStripExcel.Size = new Size(29, 24);
+            toolStripExcel.Text = "Экспорт Excel";
+            // 
+            // toolStripWord
+            // 
+            toolStripWord.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            toolStripWord.Image = (Image)resources.GetObject("toolStripWord.Image");
+            toolStripWord.ImageTransparentColor = Color.Magenta;
+            toolStripWord.Name = "toolStripWord";
+            toolStripWord.Size = new Size(29, 24);
+            toolStripWord.Text = "Экспорт Word";
+            // 
+            // toolStripColor
+            // 
+            toolStripColor.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            toolStripColor.Image = (Image)resources.GetObject("toolStripColor.Image");
+            toolStripColor.ImageTransparentColor = Color.Magenta;
+            toolStripColor.Name = "toolStripColor";
+            toolStripColor.Size = new Size(29, 24);
+            toolStripColor.Text = "Цвет графика";
+            toolStripColor.Click += toolStripChangeColor;
+            // 
+            // btnMatlabVerify
+            // 
+            btnMatlabVerify.Location = new Point(541, 95);
+            btnMatlabVerify.Name = "btnMatlabVerify";
+            btnMatlabVerify.Size = new Size(192, 32);
+            btnMatlabVerify.TabIndex = 14;
+            btnMatlabVerify.Text = "Решить в Matlab";
+            btnMatlabVerify.UseVisualStyleBackColor = true;
+            btnMatlabVerify.Click += solveMatlab;
+            // 
             // MainForm
             // 
             ClientSize = new Size(1542, 1055);
+            Controls.Add(btnMatlabVerify);
+            Controls.Add(toolStrip2);
             Controls.Add(toolStrip1);
             Controls.Add(btnexit);
             Controls.Add(label2);
@@ -300,6 +387,8 @@
             toolStrip1.ResumeLayout(false);
             toolStrip1.PerformLayout();
             ctxmenu.ResumeLayout(false);
+            toolStrip2.ResumeLayout(false);
+            toolStrip2.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -331,5 +420,13 @@
         private ToolStripMenuItem MenuItem3;
         private ToolStripMenuItem MenuItem4;
         private ToolStripMenuItem MenuItem5;
+        private ToolStrip toolStrip2;
+        private ToolStripButton toolStripGraph;
+        private ToolStripButton toolStripInfo;
+        private ToolStripButton toolStripPowerPoint;
+        private ToolStripButton toolStripExcel;
+        private ToolStripButton toolStripWord;
+        private ToolStripButton toolStripColor;
+        private Button btnMatlabVerify;
     }
     }

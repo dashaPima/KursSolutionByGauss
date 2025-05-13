@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A5073BE1-9A73-466B-86BA-CBAC27F8E304}|DLLhelper\\DLLhelper.csproj|d:\\fourthsem\\kyrsovrpvs\\kyrsovrpvs\\dllhelper\\matlablinearsystemsolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5073BE1-9A73-466B-86BA-CBAC27F8E304}|DLLhelper\\DLLhelper.csproj|solutionrelative:dllhelper\\matlablinearsystemsolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{557DF55D-9C46-4B7A-881E-F5563253DE2C}|KyrsovRPVS\\KyrsovRPVS.csproj|d:\\fourthsem\\kyrsovrpvs\\kyrsovrpvs\\kyrsovrpvs\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{557DF55D-9C46-4B7A-881E-F5563253DE2C}|KyrsovRPVS\\KyrsovRPVS.csproj|solutionrelative:kyrsovrpvs\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,8 +15,20 @@
       "RelativeMoniker": "D:0:0:{557DF55D-9C46-4B7A-881E-F5563253DE2C}|KyrsovRPVS\\KyrsovRPVS.csproj|solutionrelative:kyrsovrpvs\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A5073BE1-9A73-466B-86BA-CBAC27F8E304}|DLLhelper\\DLLhelper.csproj|d:\\fourthsem\\kyrsovrpvs\\kyrsovrpvs\\dllhelper\\dllhelper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A5073BE1-9A73-466B-86BA-CBAC27F8E304}|DLLhelper\\DLLhelper.csproj|solutionrelative:dllhelper\\dllhelper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5073BE1-9A73-466B-86BA-CBAC27F8E304}|DLLhelper\\DLLhelper.csproj|d:\\fourthsem\\kyrsovrpvs\\kyrsovrpvs\\dllhelper\\linearsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5073BE1-9A73-466B-86BA-CBAC27F8E304}|DLLhelper\\DLLhelper.csproj|solutionrelative:dllhelper\\linearsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A5073BE1-9A73-466B-86BA-CBAC27F8E304}|DLLhelper\\DLLhelper.csproj|d:\\fourthsem\\kyrsovrpvs\\kyrsovrpvs\\dllhelper\\dataexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5073BE1-9A73-466B-86BA-CBAC27F8E304}|DLLhelper\\DLLhelper.csproj|solutionrelative:dllhelper\\dataexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{557DF55D-9C46-4B7A-881E-F5563253DE2C}|KyrsovRPVS\\KyrsovRPVS.csproj|d:\\fourthsem\\kyrsovrpvs\\kyrsovrpvs\\kyrsovrpvs\\kyrsovrpvs.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{557DF55D-9C46-4B7A-881E-F5563253DE2C}|KyrsovRPVS\\KyrsovRPVS.csproj|solutionrelative:kyrsovrpvs\\kyrsovrpvs.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5073BE1-9A73-466B-86BA-CBAC27F8E304}|DLLhelper\\DLLhelper.csproj|D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\dllhelper\\aboutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -25,14 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{557DF55D-9C46-4B7A-881E-F5563253DE2C}|KyrsovRPVS\\KyrsovRPVS.csproj|d:\\fourthsem\\kyrsovrpvs\\kyrsovrpvs\\kyrsovrpvs\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{557DF55D-9C46-4B7A-881E-F5563253DE2C}|KyrsovRPVS\\KyrsovRPVS.csproj|solutionrelative:kyrsovrpvs\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{557DF55D-9C46-4B7A-881E-F5563253DE2C}|KyrsovRPVS\\KyrsovRPVS.csproj|d:\\fourthsem\\kyrsovrpvs\\kyrsovrpvs\\kyrsovrpvs\\entrywindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{557DF55D-9C46-4B7A-881E-F5563253DE2C}|KyrsovRPVS\\KyrsovRPVS.csproj|solutionrelative:kyrsovrpvs\\entrywindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{557DF55D-9C46-4B7A-881E-F5563253DE2C}|KyrsovRPVS\\KyrsovRPVS.csproj|d:\\fourthsem\\kyrsovrpvs\\kyrsovrpvs\\kyrsovrpvs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{557DF55D-9C46-4B7A-881E-F5563253DE2C}|KyrsovRPVS\\KyrsovRPVS.csproj|solutionrelative:kyrsovrpvs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,8 +50,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DLLhelper",
+              "DocumentMoniker": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\DLLhelper\\DLLhelper.csproj",
+              "RelativeDocumentMoniker": "DLLhelper\\DLLhelper.csproj",
+              "ToolTip": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\DLLhelper\\DLLhelper.csproj",
+              "RelativeToolTip": "DLLhelper\\DLLhelper.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-12T05:12:28.248Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -54,20 +75,81 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MatlabLinearSystemSolver.cs",
+              "DocumentMoniker": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\DLLhelper\\MatlabLinearSystemSolver.cs",
+              "RelativeDocumentMoniker": "DLLhelper\\MatlabLinearSystemSolver.cs",
+              "ToolTip": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\DLLhelper\\MatlabLinearSystemSolver.cs",
+              "RelativeToolTip": "DLLhelper\\MatlabLinearSystemSolver.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAJ8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:12:49.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\KyrsovRPVS\\MainForm.cs",
+              "RelativeDocumentMoniker": "KyrsovRPVS\\MainForm.cs",
+              "ToolTip": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\KyrsovRPVS\\MainForm.cs",
+              "RelativeToolTip": "KyrsovRPVS\\MainForm.cs",
+              "ViewState": "AgIAAKQCAAAAAAAAAAAAALYCAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T11:51:55.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LinearSystem.cs",
+              "DocumentMoniker": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\DLLhelper\\LinearSystem.cs",
+              "RelativeDocumentMoniker": "DLLhelper\\LinearSystem.cs",
+              "ToolTip": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\DLLhelper\\LinearSystem.cs",
+              "RelativeToolTip": "DLLhelper\\LinearSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T17:28:52.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\KyrsovRPVS\\MainForm.cs",
+              "RelativeDocumentMoniker": "KyrsovRPVS\\MainForm.cs",
+              "ToolTip": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\KyrsovRPVS\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "KyrsovRPVS\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T11:51:29.119Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "DataExporter.cs",
               "DocumentMoniker": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\DLLhelper\\DataExporter.cs",
               "RelativeDocumentMoniker": "DLLhelper\\DataExporter.cs",
               "ToolTip": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\DLLhelper\\DataExporter.cs",
               "RelativeToolTip": "DLLhelper\\DataExporter.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAAwJ8AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAQwJsAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T05:24:59.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T05:24:59.989Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "KyrsovRPVS",
+              "DocumentMoniker": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\KyrsovRPVS\\KyrsovRPVS.csproj",
+              "RelativeDocumentMoniker": "KyrsovRPVS\\KyrsovRPVS.csproj",
+              "ToolTip": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\KyrsovRPVS\\KyrsovRPVS.csproj",
+              "RelativeToolTip": "KyrsovRPVS\\KyrsovRPVS.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-07T12:13:15.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "AboutForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "DocumentMoniker": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\DLLhelper\\AboutForm.cs",
               "RelativeDocumentMoniker": "DLLhelper\\AboutForm.cs",
@@ -78,76 +160,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\KyrsovRPVS\\MainForm.cs",
-              "RelativeDocumentMoniker": "KyrsovRPVS\\MainForm.cs",
-              "ToolTip": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\KyrsovRPVS\\MainForm.cs*",
-              "RelativeToolTip": "KyrsovRPVS\\MainForm.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T11:51:55.707Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EntryWindow.cs [Design]",
+              "DocumentIndex": 8,
+              "Title": "EntryWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "DocumentMoniker": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\KyrsovRPVS\\EntryWindow.cs",
               "RelativeDocumentMoniker": "KyrsovRPVS\\EntryWindow.cs",
-              "ToolTip": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\KyrsovRPVS\\EntryWindow.cs [Design]",
-              "RelativeToolTip": "KyrsovRPVS\\EntryWindow.cs [Design]",
+              "ToolTip": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\KyrsovRPVS\\EntryWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "KyrsovRPVS\\EntryWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T11:27:52.528Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "DocumentMoniker": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\KyrsovRPVS\\MainForm.cs",
-              "RelativeDocumentMoniker": "KyrsovRPVS\\MainForm.cs",
-              "ToolTip": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\KyrsovRPVS\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]*",
-              "RelativeToolTip": "KyrsovRPVS\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T11:51:29.119Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "MainForm.Designer.cs",
               "DocumentMoniker": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\KyrsovRPVS\\MainForm.Designer.cs",
               "RelativeDocumentMoniker": "KyrsovRPVS\\MainForm.Designer.cs",
               "ToolTip": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\KyrsovRPVS\\MainForm.Designer.cs",
               "RelativeToolTip": "KyrsovRPVS\\MainForm.Designer.cs",
-              "ViewState": "AgIAAOoAAAAAAAAAAMBdwPwAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAM0AAAAAAAAAADCEwP4AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T11:51:39.637Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EntryWindow.cs",
-              "DocumentMoniker": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\KyrsovRPVS\\EntryWindow.cs",
-              "RelativeDocumentMoniker": "KyrsovRPVS\\EntryWindow.cs",
-              "ToolTip": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\KyrsovRPVS\\EntryWindow.cs",
-              "RelativeToolTip": "KyrsovRPVS\\EntryWindow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T11:35:36.73Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "program.cs",
-              "DocumentMoniker": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\KyrsovRPVS\\program.cs",
-              "RelativeDocumentMoniker": "KyrsovRPVS\\program.cs",
-              "ToolTip": "D:\\FourthSem\\kyrsovRPVS\\KyrsovRPVS\\KyrsovRPVS\\program.cs",
-              "RelativeToolTip": "KyrsovRPVS\\program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T12:02:07.41Z"
             }
           ]
         }

@@ -6,10 +6,29 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
 
   <ItemGroup>
+    <COMReference Include="MLApp">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>c36e46ab-6a81-457b-9f91-a7719a06287f</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\DLLhelper\DLLhelper.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="automation">
+      <HintPath>C:\Program Files (x86)\Mathcad\Mathcad 15\automation.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
   <ItemGroup>

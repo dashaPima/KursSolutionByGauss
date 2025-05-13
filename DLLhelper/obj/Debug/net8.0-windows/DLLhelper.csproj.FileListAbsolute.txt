@@ -48,3 +48,4 @@ D:\FourthSem\kyrsovRPVS\KyrsovRPVS\DLLhelper\obj\Debug\net8.0-windows\DLLhelper.
 D:\FourthSem\kyrsovRPVS\KyrsovRPVS\DLLhelper\obj\Debug\net8.0-windows\refint\DLLhelper.dll
 D:\FourthSem\kyrsovRPVS\KyrsovRPVS\DLLhelper\obj\Debug\net8.0-windows\DLLhelper.pdb
 D:\FourthSem\kyrsovRPVS\KyrsovRPVS\DLLhelper\obj\Debug\net8.0-windows\ref\DLLhelper.dll
+D:\FourthSem\kyrsovRPVS\KyrsovRPVS\DLLhelper\obj\Debug\net8.0-windows\Interop.MLApp.dll

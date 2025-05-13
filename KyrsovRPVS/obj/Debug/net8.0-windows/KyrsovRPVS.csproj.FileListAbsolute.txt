@@ -26,3 +26,12 @@ D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\bin\Debug\net8.0-windows\HelpFiles
 D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\obj\Debug\net8.0-windows\KyrsovRPVS.sourcelink.json
 D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\bin\Debug\net8.0-windows\DLLhelper.dll
 D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\bin\Debug\net8.0-windows\DLLhelper.pdb
+D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\bin\Debug\net8.0-windows\automation.dll
+D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\bin\Debug\net8.0-windows\interop.mathcad.dll
+D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\bin\Debug\net8.0-windows\automationmgd.dll
+D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\bin\Debug\net8.0-windows\mplrun.dll
+D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\bin\Debug\net8.0-windows\interop.mathcadautomationprivate.dll
+D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\bin\Debug\net8.0-windows\utilsmgd.dll
+D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\bin\Debug\net8.0-windows\Mpl.dll
+D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\obj\Debug\net8.0-windows\Interop.MLApp.dll
+D:\FourthSem\kyrsovRPVS\KyrsovRPVS\KyrsovRPVS\obj\Debug\net8.0-windows\KyrsovRPVS.csproj.ResolveComReference.cache
